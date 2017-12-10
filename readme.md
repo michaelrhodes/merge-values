@@ -1,6 +1,6 @@
 # merge-values
 
-merge-values is a little function merges two values of any type. It will traverse objects and merge the values of keys it finds on both inputs.
+merge-values is a little function that merges two values of any type. It will traverse objects and merge matching key-value pairs.
 
 [![build status](https://travis-ci.org/michaelrhodes/merge-values.svg?branch=master)](https://travis-ci.org/michaelrhodes/merge-values)
 
