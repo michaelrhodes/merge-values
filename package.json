@@ -1,0 +1,23 @@
+{
+  "name": "merge-values",
+  "version": "0.0.0",
+  "description": "A little function that merges two values of any type",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/merge-values.git"
+  },
+  "keywords": [
+    "merge",
+    "values",
+    "deep"
+  ],
+  "author": [
+    "Michael Rhodes <spam+git@michaelrhod.es> (http://michaelrhod.es)",
+    "Oleksii Shevchenko <shevaroller@gmail.com> (http://shevaroller.me)"
+  ],
+  "license": "MIT"
+}
