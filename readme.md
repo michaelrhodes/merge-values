@@ -40,5 +40,17 @@ merge({ a: 0 }, { a: 1, b: 2 })
 > { a: [0, 1], b: 2 }
 ```
 
+### with infinite arguments
+
+```js
+var merge = require('merge-values/infinite')
+
+merge(1, [2, 3], 4)
+> [1, 2, 3, 4]
+
+merge({ a: 1 }, { b: 2, c: 3 }, { d: 4 })
+> { a: 1, b: 2, c: 3, d: 4 }
+```
+
 ## licence
 [MIT](http://opensource.org/licenses/MIT)
