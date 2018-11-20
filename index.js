@@ -9,8 +9,8 @@ function merge (v1, v2) {
 
   if (v1 === v2) return v1
 
-  // Concatenate non-objects into arrays
-  if (t1 != 'object' && t2 != 'object') return v1 = [v1, v2], v1
+  // Replace non-objects
+  if (t1 != 'object' && t2 != 'object') return v1 = v2, v1
 
   // Concatenate two arrays together
   if (arr(v1) && arr(v2)) return v1 = v1.concat(v2), v1
