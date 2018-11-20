@@ -7,7 +7,7 @@ merge-values is a little function that merges two values of any type. It will tr
 ## install
 
 ```sh
-$ npm install merge-values
+$ npm install michaelrhodes/merge-values#2.0.0
 ```
 
 ## use
